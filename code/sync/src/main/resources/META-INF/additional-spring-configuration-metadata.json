@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "qlds.databases",
+      "type": "java.lang.String",
+      "description": "Description for qlds.databases."
+    },
+    {
+      "name": "qlds.urlES",
+      "type": "java.lang.String",
+      "description": "Description for qlds.urlES."
+    },
+    {
+      "name": "qlds.hostES",
+      "type": "java.lang.String",
+      "description": "Description for qlds.hostES."
+    },
+    {
+      "name": "qlds.portES",
+      "type": "java.lang.Integer",
+      "description": "Description for qlds.portES."
+    },
+    {
+      "name": "qlds.protocol",
+      "type": "java.lang.String",
+      "description": "Description for qlds.protocol."
+    }
+  ] }

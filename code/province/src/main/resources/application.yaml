@@ -1,0 +1,20 @@
+spring:
+  jersey:
+    application-path: /api
+  rabbitmq:
+    host: 171.244.9.248
+    port: 5672
+    username: qlds
+    password: ghdc@123
+server:
+  port: 9004
+urlES: http://125.212.226.94:9200/
+qlds:
+  databases:
+    - db_template
+    - db_bac_ninh
+    - db_nghe_an1
+  urlES: http://125.212.226.94:9200/
+
+
+

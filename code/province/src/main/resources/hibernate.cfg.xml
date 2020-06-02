@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://125.212.226.145:3306/db_bac_ninh</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <mapping class="vn.byt.qlds.model.Report"/>
+        <mapping class="vn.byt.qlds.model.Address"/>
+        <mapping class="vn.byt.qlds.model.RegionChange"/>
+        <mapping class="vn.byt.qlds.model.HouseHold"/>
+        <mapping class="vn.byt.qlds.model.FamilyPlanning"/>
+        <mapping class="vn.byt.qlds.model.FamilyPlanningHistory"/>
+        <mapping class="vn.byt.qlds.model.PersonHistory"/>
+        <mapping class="vn.byt.qlds.model.Person"/>
+        <mapping class="vn.byt.qlds.model.PersonHealthy"/>
+        <mapping class="vn.byt.qlds.model.Operationstatisticinfor"/>
+        <mapping class="vn.byt.qlds.model.Supplementinfor"/>
+        <mapping class="vn.byt.qlds.model.Person"/>
+        <mapping class="vn.byt.qlds.model.LogAction"/>
+
+        <!-- <property name="connection.username"/> -->
+        <!-- <property name="connection.password"/> -->
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>

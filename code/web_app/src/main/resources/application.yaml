@@ -1,0 +1,17 @@
+urlES: http://125.212.226.94:9200
+apiEndpointProvince: http://125.212.226.94:9004/api
+apiEndpointCommon: http://125.212.226.94:9005/api
+path_export_tmp: ./deploy/export_tmp/
+path_export: ./deploy/export/
+store_export: http://125.212.226.94:8080/
+spring:
+  application:
+    name: web_app
+
+server:
+  port: 9003
+  servlet:
+    context-path: /api
+
+
+

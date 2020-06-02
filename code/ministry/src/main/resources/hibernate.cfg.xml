@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+    <session-factory>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="connection.url">jdbc:mysql://125.212.226.145:3306</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <mapping class="vn.byt.qlds.ministry.model.UnitCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.Account"/>
+        <mapping class="vn.byt.qlds.ministry.model.UnitLevelCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.PermissionCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.AccountRole"/>
+        <mapping class="vn.byt.qlds.ministry.model.RolePermission"/>
+        <mapping class="vn.byt.qlds.ministry.model.UnitCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.UnitCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.Report"/>
+        <mapping class="vn.byt.qlds.ministry.model.ReportDesign"/>
+        <mapping class="vn.byt.qlds.ministry.model.RegionChangeType"/>
+        <mapping class="vn.byt.qlds.ministry.model.RegionChange"/>
+        <mapping class="vn.byt.qlds.ministry.model.NationCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.DisabilityCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.UserGroupCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.ContraceptiveCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.EducationCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.TechnicalCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.DeadCategory"/>
+        <mapping class="vn.byt.qlds.ministry.model.Gender"/>
+        <mapping class="vn.byt.qlds.ministry.model.ReasonChange"/>
+        <mapping class="vn.byt.qlds.ministry.model.Notification"/>
+        <mapping class="vn.byt.qlds.ministry.model.Relationship"/>
+        <mapping class="vn.byt.qlds.ministry.model.Nationality"/>
+        <mapping class="vn.byt.qlds.ministry.model.MaritalStatus"/>
+        <mapping class="vn.byt.qlds.ministry.model.ResidenceStatus"/>
+        <mapping class="vn.byt.qlds.ministry.model.DmNhomNguoiDung"/>
+        <mapping class="vn.byt.qlds.ministry.model.TransferPerson"/>
+        <mapping class="vn.byt.qlds.ministry.model.TransferAddress"/>
+        <mapping class="vn.byt.qlds.ministry.model.DanhSachChuyenNgoaiVung"/>
+        <mapping class="vn.byt.qlds.ministry.model.TransferPerson"/>
+        <mapping class="vn.byt.qlds.ministry.model.TransferHouseHold"/>
+        <mapping class="vn.byt.qlds.ministry.model.SeparationHouseHold"/>
+        <mapping class="vn.byt.qlds.ministry.model.AreaCategory"/>
+
+
+        <!-- <property name="connection.username"/> -->
+        <!-- <property name="connection.password"/> -->
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>

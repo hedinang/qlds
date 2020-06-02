@@ -1,0 +1,10 @@
+.idea
+.settings
+target
+.classpath
+.project
+log*
+ministry.iml
+HELP.md
+
+src/main/resources/META-INF
